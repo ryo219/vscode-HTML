@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>mission3-5</title>
+    <title>Bulletin Board</title>
 </head>
 <p><strong>　　　Please do not enter the Enter Key!　　Press the buttons below.</strong></p>
 <body>
@@ -16,7 +16,7 @@
         $pass_delete = @$_POST["pass_delete"];         
         $pass_edit = @$_POST["pass_edit"];         
       
-        $filename="3-05-inputs.txt";
+        $filename="inputs.txt";
 
         $flag_edit = @$_POST["edit_n"];
         $date = date("Y/m/d  H:i:s");
@@ -198,7 +198,7 @@
    
    
 <!-- ここから各フォームの設定 -->
-    <form action="3-05.php" method="post">
+    <form action=" " method="post">
         名前　　 　　　　<input type="text" name="name" value = "<?php echo @$newname ; ?>"><br>
         コメント 　　　　<input type="text" name="comment" value = "<?php echo @$newcomment ; ?>"><br>
         Pass 　　　　　　<input type="text" name="pass_input" value = "<?php echo @$showpass ; ?>"><br>
